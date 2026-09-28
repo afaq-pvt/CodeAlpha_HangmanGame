@@ -18,17 +18,18 @@ def show_title():
     print("\n" + "=" * 40)
     print("         HANGMAN WORD GAME")
     print("=" * 40)
-    
+#Intructions Menu  
 def show_instructions():
-    print("\nHOW TO PLAY")
-    print("-" * 40)
+    print("\n" + "=" * 40)
+    print("HOW TO PLAY")
+    print("=" * 40)
     print("1. The computer selects a secret word.")
     print("2. Guess one letter at a time.")
     print("3. Correct letters are revealed.")
     print("4. Each wrong guess costs one life.")
     print("5. You have 6 incorrect guesses.")
     print("6. Guess the word before lives run out.")
-    print("-" * 40)
+    print("=" * 40)
 
 
 def display_word(word, guessed_letters):
@@ -57,7 +58,7 @@ def main():
             print("Game will be added soon.")
 
         elif choice == "2":
-            show_instructions
+            show_instructions()
             
 
         elif choice == "3":
